@@ -10,11 +10,11 @@ import Foundation
 class AppleProduct {
     
     /// name of the product
-    var name: String
+    public private(set) var name: String
     /// color of the product
-    var color: String
+    public private(set) var color: String
     ///price of the product
-    var price: Double
+    public private(set) var price: Double
     
     /// Initializer taking `name`, `color` and `price` as paramters.
     ///
